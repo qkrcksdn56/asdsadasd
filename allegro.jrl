@@ -1,0 +1,229 @@
+\t (00:01:50) allegro 16.6 S034 (v16-6-112CQ) Windows 32
+\t (00:01:50)     Journal start - Wed Jul 17 09:58:37 2019
+\t (00:01:50)         Host=USER-PC User=user Pid=5676 CPUs=4
+\t (00:01:50) CmdLine= allegro.exe -p .
+\t (00:01:50) 
+\t (00:01:50) Starting new design...
+\i (00:01:50) trapsize 1442
+\i (00:01:50) trapsize 1415
+\i (00:01:50) trapsize 1442
+\i (00:01:51) trapsize 1757
+\i (00:01:51) trapsize 2685
+\i (00:01:51) trapsize 2685
+\i (00:01:51) package symbol wizard 
+\i (00:01:51) generaledit 
+   (00:01:52) Loading cmds.cxt 
+   (00:01:52) Loading axlcore.cxt 
+\i (00:01:52) setwindow form.sym_wizard
+\i (00:01:52) FORM sym_wizard plcc YES 
+\i (00:01:52) FORM sym_wizard bga YES 
+\i (00:01:54) FORM sym_wizard wiz_next  
+\i (00:01:55) FORM sym_wizard load_template  
+\t (00:01:55) Opening existing design...
+\i (00:01:56) fillin yes 
+\t (00:01:56) Grids are drawn 200, 200 apart for enhanced viewability.
+\i (00:01:56) setwindow pcb
+\i (00:01:56) trapsize 211
+\d (00:01:56) Design opened: C:/Users/user/Downloads/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:01:56) setwindow form.sym_wizard
+\i (00:01:56) FORM sym_wizard wiz_next  
+\i (00:01:59) FORM sym_wizard pack_units Millimeter 
+\i (00:02:00) FORM sym_wizard pack_units_create Millimeter 
+\i (00:02:01) FORM sym_wizard wiz_next  
+\i (00:02:04) FORM sym_wizard bga_md 26 
+\i (00:02:08) FORM sym_wizard bga_me 26 
+\i (00:02:08) FORM sym_wizard pin_circumference YES 
+\i (00:02:13) FORM sym_wizard pin_circ_inner_levels 6 
+\i (00:02:37) FORM sym_wizard pin_circ_outer_levels 4 
+\i (00:02:47) FORM sym_wizard pin_circ_inner_levels 0 
+\i (00:02:47) FORM sym_wizard wiz_back  
+\i (00:02:48) FORM sym_wizard wiz_next  
+\i (00:03:48) FORM sym_wizard bga_md 20 
+\i (00:03:50) FORM sym_wizard bga_me 20 
+\i (00:04:28) FORM sym_wizard wiz_next  
+\i (00:04:30) FORM sym_wizard pin_numbering_field Number Left Letter Down 
+\i (00:04:31) FORM sym_wizard wiz_next  
+\i (00:04:53) FORM sym_wizard pga_width 27.000 
+\i (00:04:55) FORM sym_wizard pga_len 27.000 
+\i (00:05:25) FORM sym_wizard pga_eh 1.270 
+\i (00:05:28) FORM sym_wizard pga_ev 1.270 
+\i (00:05:28) FORM sym_wizard wiz_next  
+\i (00:05:29) FORM sym_wizard default_pad_browse  
+\i (00:05:42) fillin "Smd30_31"
+\i (00:05:43) FORM sym_wizard wiz_next  
+\i (00:05:44) FORM sym_wizard wiz_next  
+\i (00:05:45) FORM sym_wizard wiz_finish  
+\w (00:05:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:05:45) Grids are drawn 5.080, 5.080 apart for enhanced viewability.
+\i (00:05:45) setwindow pcb
+\i (00:05:45) trapsize 5371
+\t (00:05:45) Performing DRC...
+\t (00:05:45) No DRC errors detected.
+\i (00:05:45) trapsize 5371
+\i (00:05:45) trapsize 803
+\i (00:05:45) trapsize 202
+\i (00:05:45) trapsize 202
+\i (00:05:46) fillin yes 
+\i (00:05:47) fillin yes 
+\t (00:05:47) Creating package symbol 'C:/Users/user/Desktop/workspace/ex2019-7-17/myqcw.psm'.
+\t (00:05:47) Starting Create symbol...
+\i (00:05:47) generaledit 
+\i (00:05:50) zoom out 1 
+\i (00:05:50) setwindow pcb
+\i (00:05:50) zoom out 0.980 -4.479
+\i (00:05:50) trapsize 404
+\i (00:05:51) zoom in 1 
+\i (00:05:51) setwindow pcb
+\i (00:05:51) zoom in -5.345 0.778
+\i (00:05:51) trapsize 202
+\i (00:06:02) pick grid 12.246 9.756
+\t (00:06:02) last pick:  12.700 10.160
+\i (00:06:03) pick grid 19.403 8.987
+\t (00:06:03) last pick:  20.320 10.160
+\i (00:06:12) padeditdb 
+\i (00:06:24) replace padstack 
+\i (00:06:52) padeditdb 
+\i (00:06:54) setwindow form.mini
+\i (00:06:54) FORM mini padlist SMD30_31 
+\i (00:06:54) FORMDBLCLK mini padlist SMD30_31 
+\i (00:06:56) setwindow form.padedit
+\i (00:06:56) FORM padedit layers  
+\i (00:07:12) FORM padedit geometry Null 
+\i (00:07:16) FORM padedit grid row top 
+\i (00:07:20) FORM padedit grid rpopup top Copy 
+\i (00:07:21) FORM padedit grid rpopup soldermask_top Paste 
+\i (00:07:24) FORM padedit grid rpopup soldermask_bottom Paste 
+\i (00:07:26) FORM padedit grid rpopup pastemask_top Paste 
+\i (00:07:28) FORM padedit grid rpopup pastemask_bottom Paste 
+\i (00:07:31) FORM padedit parameters  
+\i (00:07:33) pse_exit
+\i (00:07:38) setwindow form.mini
+\i (00:07:38) FORM mini purge All 
+\i (00:07:41) FORM mini pmreset  
+\i (00:07:42) FORM mini pmreset  
+\i (00:07:42) FORM mini pmreset  
+\i (00:07:43) FORM mini padlist SMD30_31 
+\i (00:07:43) FORMDBLCLK mini padlist SMD30_31 
+\i (00:07:44) setwindow form.padedit
+\i (00:07:44) FORM padedit layers  
+\i (00:07:48) FORM padedit grid row top 
+\i (00:07:49) FORM padedit grid rpopup top Copy 
+\i (00:07:53) FORM padedit grid rpopup soldermask_top Paste 
+\i (00:08:00) pse_exit
+\i (00:08:04) setwindow form.mini
+\i (00:08:04) FORM mini padlist SMD30_31 
+\i (00:08:04) FORM mini padlist SMD30_31 
+\i (00:08:04) FORMDBLCLK mini padlist SMD30_31 
+\i (00:08:10) setwindow form.padedit
+\i (00:08:10) FORM padedit geometry Null 
+\i (00:08:12) FORM padedit grid row top 
+\i (00:08:14) FORM padedit grid rpopup top Copy 
+\i (00:08:15) FORM padedit grid row soldermask_top 
+\i (00:08:17) FORM padedit grid rpopup soldermask_top Paste 
+\i (00:08:18) FORM padedit grid rpopup soldermask_bottom Paste 
+\i (00:08:20) FORM padedit grid rpopup pastemask_top Paste 
+\i (00:08:21) FORM padedit grid rpopup pastemask_bottom Paste 
+\i (00:08:24) FORM padedit parameters  
+\i (00:08:28) FORM padedit layers  
+\i (00:08:30) pse_exit
+\i (00:08:35) setwindow form.mini
+\i (00:08:35) FORM mini padlist SMD30_31 
+\i (00:08:35) FORMDBLCLK mini padlist SMD30_31 
+\i (00:08:38) setwindow form.padedit
+\i (00:08:38) pse_exit
+\i (00:15:40) setwindow form.mini
+\i (00:15:40) FORM mini padlist SMD30_31 
+\i (00:15:40) FORMDBLCLK mini padlist SMD30_31 
+\i (00:15:44) setwindow form.padedit
+\i (00:15:44) FORM padedit geometry Rectangle 
+\i (00:15:49) FORM padedit grid rpopup top Copy 
+\i (00:15:51) FORM padedit grid rpopup soldermask_top Paste 
+\i (00:15:52) FORM padedit grid rpopup soldermask_bottom Paste 
+\i (00:15:54) FORM padedit grid rpopup pastemask_top Paste 
+\i (00:15:55) FORM padedit grid rpopup pastemask_bottom Paste 
+\i (00:16:00) FORM padedit parameters  
+\i (00:16:03) FORM padedit layers  
+\i (00:16:05) pse_save_as 
+\i (00:16:08) fillin "smd30_31.pad"
+\i (00:16:10) pse_update 
+\i (00:16:14) pse_exit
+\i (00:31:30) setwindow pcb
+\i (00:31:30) replace padstack 
+\t (00:31:30) DRC Required please wait...
+\t (00:31:30) Performing DRC...
+\t (00:31:30) No DRC errors detected.
+\i (00:31:31) setwindow form.mini
+\i (00:31:31) FORM mini oldname_browse  
+\i (00:31:33) fillin "Smd30_31"
+\i (00:31:34) FORM mini newname_browse  
+\i (00:33:00) fillin "C:/Users/user/Desktop/workspace/ex2019-7-17/my256.pad"
+\i (00:33:02) FORM mini newname_browse  
+\i (00:33:10) fillin "My256"
+\i (00:33:12) FORM mini replace  
+\i (00:33:14) setwindow pcb
+\i (00:33:14) pick grid 29.715 -2.174
+\t (00:33:14) last pick:  30.480 -2.540
+\i (00:33:22) new 
+\t (00:33:22) Performing DRC...
+\t (00:33:22) No DRC errors detected.
+\e (00:33:22) Do you want to save the changes you made to C:/Users/user/Desktop/workspace/ex2019-7-17/myqcw.dra?
+\i (00:33:24) fillin yes 
+\t (00:33:25) Symbol 'myqcw.psm' created.
+\i (00:33:38) newdrawfillin "mykin.dra" "Package Symbol (Wizard)"
+\t (00:33:38) Starting new design...
+\i (00:33:38) trapsize 504
+\i (00:33:38) trapsize 504
+\i (00:33:39) package symbol wizard 
+\i (00:33:39) generaledit 
+\i (00:33:40) setwindow form.sym_wizard
+\i (00:33:40) FORM sym_wizard rca_th YES 
+\i (00:33:40) FORM sym_wizard bga YES 
+\i (00:33:42) FORM sym_wizard wiz_next  
+\i (00:33:50) FORM sym_wizard wiz_next  
+\i (00:33:52) fillin confirm
+\i (00:33:52) FORM sym_wizard load_template  
+\t (00:33:52) Opening existing design...
+\i (00:33:53) fillin yes 
+\t (00:33:53) Grids are drawn 200, 200 apart for enhanced viewability.
+\i (00:33:53) setwindow pcb
+\i (00:33:53) trapsize 211
+\d (00:33:53) Design opened: C:/Users/user/Downloads/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:33:54) setwindow form.sym_wizard
+\i (00:33:54) FORM sym_wizard wiz_next  
+\i (00:33:56) FORM sym_wizard pack_units Millimeter 
+\i (00:33:57) FORM sym_wizard pack_units_create Millimeter 
+\i (00:33:58) FORM sym_wizard wiz_next  
+\i (00:34:20) FORM sym_wizard bga_md 16 
+\i (00:34:23) FORM sym_wizard bga_me 16 
+\i (00:34:23) FORM sym_wizard wiz_next  
+\i (00:34:25) FORM sym_wizard pin_numbering_field Number Left Letter Down 
+\i (00:34:26) FORM sym_wizard wiz_next  
+\i (00:34:28) FORM sym_wizard pga_ev 1.000 
+\i (00:34:29) FORM sym_wizard pga_eh 1.000 
+\i (00:34:43) FORM sym_wizard pga_width 17.000 
+\i (00:34:45) FORM sym_wizard pga_len 17.000 
+\i (00:34:45) FORM sym_wizard wiz_next  
+\i (00:34:46) FORM sym_wizard default_pad_browse  
+\t (00:34:54) No valid name selected.
+\i (00:34:55) fillin "My256"
+\i (00:34:57) FORM sym_wizard wiz_next  
+\i (00:34:58) FORM sym_wizard wiz_next  
+\i (00:34:58) FORM sym_wizard wiz_finish  
+\w (00:34:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:34:58) Grids are drawn 5.080, 5.080 apart for enhanced viewability.
+\i (00:34:58) setwindow pcb
+\i (00:34:58) trapsize 5371
+\t (00:34:58) Performing DRC...
+\t (00:34:58) No DRC errors detected.
+\i (00:34:58) trapsize 5371
+\i (00:34:58) trapsize 758
+\i (00:34:58) trapsize 152
+\i (00:34:58) trapsize 152
+\t (00:34:58) Creating package symbol 'C:/Users/user/Desktop/workspace/ex2019-7-17/mykin.psm'.
+\t (00:34:58) Starting Create symbol...
+\i (00:34:59) generaledit 
+\i (00:35:05) exit 
+\e (00:35:05) Do you want to save the changes you made to C:/Users/user/Desktop/workspace/ex2019-7-17/mykin.dra?
+\i (00:35:06) fillin yes 
+\t (00:35:07) Symbol 'mykin.psm' created.
+\t (00:35:07)     Journal end - Wed Jul 17 10:31:54 2019
